@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Editkaro.in Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>Editkaro.in</h1>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Creative Video Editing Agency</h2>
+    <p>Short-form Videos • Gaming Videos • Ads • Documentary Style</p>
+</section>
+
+<section class="filter-buttons">
+
+<button data-filter="all">All</button>
+<button data-filter="short">Short-form</button>
+<button data-filter="gaming">Gaming</button>
+<button data-filter="football">Football</button>
+<button data-filter="ads">Ads</button>
+<button data-filter="anime">Anime</button>
+
+</section>
+
+<section class="portfolio" id="portfolio">
+
+<div class="card short">
+    <video controls>
+        <source src="videos/video1.mp4">
+    </video>
+    <h3>Short-form Reel</h3>
+</div>
+
+<div class="card gaming">
+    <video controls>
+        <source src="videos/video2.mp4">
+    </video>
+    <h3>Gaming Edit</h3>
+</div>
+
+<div class="card football">
+    <video controls>
+        <source src="videos/video3.mp4">
+    </video>
+    <h3>Football Highlights</h3>
+</div>
+
+<div class="card ads">
+    <video controls>
+        <source src="videos/video4.mp4">
+    </video>
+    <h3>eCommerce Ad</h3>
+</div>
+
+<div class="card anime">
+    <video controls>
+        <source src="videos/video5.mp4">
+    </video>
+    <h3>Anime Edit</h3>
+</div>
+
+</section>
+
+<footer id="contact">
+    <h3>Contact</h3>
+    <p>Email: contact@editkaro.in</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
